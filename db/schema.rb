@@ -16,7 +16,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_12_07_102910) do
     t.string "encrypted_password", default: "", null: false
     t.string "nickname", null: false
     t.text "profile", null: false
-    t.string "affiliection", null: false
+    t.string "affiliation", null: false
     t.string "role", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
