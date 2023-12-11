@@ -9,4 +9,18 @@ class User < ApplicationRecord
    validates :profile, presence: true    
    validates :affiliation, presence: true
    validates :role, presence: true
-end
+
+
+
+
+
+has_many :prototype
+
+
+
+
+
+
+
+
+  end
