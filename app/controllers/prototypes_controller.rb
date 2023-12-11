@@ -11,9 +11,9 @@ class PrototypesController < ApplicationController
   def create
     @prototype = Prototype.new(prototype_params)
     if @prototype.save
-      redirect_to '/'
+      redirect_to root_path
     else 
-      render :index,status: :unprocessable_entity
+      render :new,status: :unprocessable_entity
     end    
   end   
 
