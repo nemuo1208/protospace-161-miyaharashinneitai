@@ -6,6 +6,10 @@ class UsersController < ApplicationController
   end
 
 
+  def show
+    @user = User.find(params[:id])
+    @prototypes = @user.prototypes
+  end  
 
   private
    def protospace_params
