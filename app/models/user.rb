@@ -14,7 +14,7 @@ class User < ApplicationRecord
 
 
 
-has_many :prototype
+has_many :prototypes
 
 
 
