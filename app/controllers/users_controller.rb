@@ -12,9 +12,9 @@ class UsersController < ApplicationController
   end  
 
   private
-   def protospace_params
-     params.require(:user).permit(:eamail, :password, :nickname, :profile, :affiliation, :role)
-   end
+  def protospace_params
+    params.require(:user).permit(:eamail, :password, :nickname, :profile, :affiliation, :role)
+  end
 
 
 
